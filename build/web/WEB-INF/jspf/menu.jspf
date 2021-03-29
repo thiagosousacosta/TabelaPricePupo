@@ -1,0 +1,14 @@
+<!-- any content can be specified here e.g.: -->
+<%@ page pageEncoding="UTF-8" %>
+<div style="text-align: center">
+    <div id="inicio"> <span>Inicio</span> </div>
+    <div id="tabela_price">  <span>Tabela Price</span> </div>
+</div>
+
+<script>
+    document.getElementById('inicio').addEventListener('click', function (event) {
+        document.location.href = '/TabelaPricePupo/index.jsp';
+    });
+    document.getElementById('tabela_price').addEventListener('click', function (event) {
+        document.location.href = '/TabelaPricePupo/tabela-price.jsp';});
+</script>
